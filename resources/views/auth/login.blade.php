@@ -25,7 +25,8 @@
         @endif
 
         <form method="POST" action="{{ route('login') }}">
-            <h1 style="color: red">Я первый зарегистрированный пользователь становится менеджер</h1>
+            <h1 style="color: red">manager@manager</h1>
+            <h1 style="color: red">12345678</h1>
             @csrf
 
             <div>
